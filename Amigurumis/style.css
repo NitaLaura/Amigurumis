@@ -1,0 +1,108 @@
+header{
+	background: linear-gradient(68.15deg, #42e0f5 16.62%, #f576f3 85.61%);
+	padding: 10px 5px;
+}
+
+h1{
+	text-align: center;
+	color: mediumvioletred;
+	text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+	font-family: Lucida Bright;
+	font-size: 35px;
+}
+
+body{
+	background-color: rgba(255, 255, 255, 0.4);
+	background-image: url(Imagens/amigurumis.jpg);
+	background-blend-mode: overlay;
+	margin: 0;
+}
+
+h2{
+	text-align: center;
+	color: mediumvioletred;
+	font-family: Lucida Bright;
+	font-size: 25px;
+}
+
+p{
+	text-align: left;
+	color: mediumvioletred;
+	font-family: Lucida Bright;
+	font-size: 18px;
+
+}
+
+.menu ul{
+	list-style: none;
+	margin: -5px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	background-color: mediumvioletred;
+	font-family: Lucida Bright;
+}
+
+.menu li{
+	margin: 0px, 10px;
+}
+
+.menu li a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: skyblue;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+.menu li a:hover{
+	background-color: lightskyblue;
+	color: mediumvioletred;
+	border-radius: 13px;
+}
+
+.container{
+	margin-top: 2px;
+  	display: flex;
+ 	flex-direction: row;
+  	justify-content: center;
+}
+
+.meio{
+  background-color: rgba(66, 224, 245, 0.7);
+  width: 50em;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.imagem{
+	text-align: center;
+}
+
+.escrita{
+	width: 250px;
+	height: 260px;
+	border: 3px solid mediumvioletred;
+  	border-radius: 10px;	
+}
+
+.naninha{
+	width: 300px;
+	height: 300px;
+	border: 3px solid mediumvioletred;
+  	border-radius: 10px;	
+}
+
+footer{
+	background: linear-gradient(68.15deg, #42e0f5 16.62%, #f576f3 85.61%);
+	padding: 3px 3px;
+	text-align: right;
+	color: #fff;
+  	bottom: 0;
+  	position: fixed;
+  	width: 100%;
+  	font-family: calibri;
+}
